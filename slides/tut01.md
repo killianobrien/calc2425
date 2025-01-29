@@ -21,6 +21,7 @@ title-slide-attributes:
 
 ## Introduction to the unit
 
+* These slides at <a href="https://tinyurl.com/calctut01" target="_blank"><code>tinyurl.com/calctut01</code></a>
 * Teaching team: Dr Killian O'Brien <img src="./images/mee.jpg" alt="Smiley face" style="vertical-align:middle;padding:3px;width:100px;"> 
 * Let's look at the <a href="https://moodle.mmu.ac.uk/course/view.php?id=183754" target="_blank">Moodle area.</a>
 
