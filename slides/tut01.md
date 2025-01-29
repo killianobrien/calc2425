@@ -102,4 +102,7 @@ $$ x_{n+1} = x_n - \frac{x_n^2 - 5}{2x_n}.$$
     - Take the limit of both sides of the recurrence relation.
     - Use some reasonable assumptions about how limits should behave.
     - Deduce that our sequence converges to $\sqrt{5}$. You will need to argue carefully about the positive or negative square root. 
-
+* **Task 7.**
+* Now use our recurrence relation to generate a sequence of better and better rational approximations to $\sqrt{5}$. 
+* Hint:
+    - program the recurrence relation into a Python loop.
