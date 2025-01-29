@@ -59,7 +59,7 @@ In this tutorial we will work towards a proof of this claim about this sequence.
 
 ## Deriving our recurrence relation
 
-* Task 1. Use Newton's recurrence relation 
+* **Task 1.** Use Newton's recurrence relation 
 
 $$ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)},$$
 to derive our recurrence relation 
@@ -67,20 +67,20 @@ $$ x_{n+1} = x_n - \frac{x_n^2 - 5}{2x_n}.$$
 
 ## From $x_0$ to $x_1$
 
-* Task 2. Confirm the equation of the first tangent line and confirm the value of $x_1 = 7/3$.
+* **Task 2.** Confirm the equation of the first tangent line and confirm the value of $x_1 = 7/3$.
 
 <img src="./images/newton.svg" alt="Newton's method" style="display:block;margin-left:auto;margin-right:auto;width:65%;">
 
 ## Establishing a lower bound for our sequence
 
-* Task 3. Take our recurrence relation and use it to show that for all $m \geq 1$ we have $x_m > 0$.
+* **Task 3.** Take our recurrence relation and use it to show that for all $m \geq 1$ we have $x_m > 0$.
 * Hints:
     - Rewrite the recurrence in the form 
     $$x_{n+1} = \frac{1}{2x_n} \Big ( \dots \Big )$$
     - Then construct an argument that if $x_n > 0$ then $x_{n+1} > 0$.
     - We can then use *proof by induction* to prove that the sequence is always positive. 
 
-* Task 4. Now let's improve the lower bound by showing that for all $m \geq 1$ we have $x_m > \sqrt{5}$.
+* **Task 4.** Now let's improve the lower bound by showing that for all $m \geq 1$ we have $x_m > \sqrt{5}$.
 * Hint:
     - Use the recurrence relation to find a nice expression for $x_{n+1}^2$ of the form 
     $$x_{n+1}^2 = 5 + \Big ( \dots \Big )^2$$
